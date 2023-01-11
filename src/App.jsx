@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css'
 
-// Components
+// Components Import
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 import Nav from "./components/nav/Nav";
@@ -12,11 +12,21 @@ import Experiance from "./components/experiance/Experiance";
 import Services from "./components/services/Services";
 import Testimonials from "./components/testimonials/Testimonials";
 
+
+
 function App() {
 
   return (
     <>
       <Header />
+      <Nav />
+      <About />
+      <Experiance />
+      <Services />
+      <Portfolio />
+      <Testimonials />
+      <Contact />
+      <Footer />
     </>
   );
 }
