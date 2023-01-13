@@ -30,7 +30,7 @@ const Testimonials = () => {
         spaceBetween={40}
         slidesPerView={1}
         grabCursor={true}
-        mousewheel={true}
+        mousewheel={false}
         keyboard={{
           enabled: true,
         }}

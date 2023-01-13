@@ -13,6 +13,9 @@ import AVTR2 from "../assets/avatar2.jpg";
 import AVTR3 from "../assets/avatar3.jpg";
 import AVTR4 from "../assets/avatar4.jpg";
 
+// CONTACT-ICONS
+import { MdOutlineEmail } from "react-icons/md";
+
 
 export const portfolioItems = [
   {
@@ -90,3 +93,30 @@ export const testimonialsAvatars = [
       "Sunt labore duis qui ullamco deserunt consectetur ea quis. Nisi ad elit dolore aute consequat. Laborum quis incididunt anim id labore et elit. Occaecat consectetur quis non duis est voluptate.",
   },
 ];
+
+
+
+// CONTACT OPTIONS
+// export const contactOptions = [
+//   {
+//     id: 1,
+//     icon: <MdOutlineEmail />,
+//     title: "Email",
+//     content: "aakashvnth@gmail.com",
+//     ref: "mailto:aakashvnth@gmail.com",
+//   },
+//   {
+//     id: 2,
+//     icon: <MdOutlineEmail />,
+//     title: "Email",
+//     content: "aakashvnth@gmail.com",
+//     ref: "mailto:aakashvnth@gmail.com",
+//   },
+//   {
+//     id: 3,
+//     icon: <MdOutlineEmail />,
+//     title: "Email",
+//     content: "aakashvnth@gmail.com",
+//     ref: "mailto:aakashvnth@gmail.com",
+//   },
+// ];
