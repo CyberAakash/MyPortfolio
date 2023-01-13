@@ -1,82 +1,77 @@
 header {
-    height: 100vh;
-    padding-top: 7rem;
-    overflow: hidden;
+  height: 100vh;
+  padding-top: 7rem;
+  overflow: hidden;
 }
 
 .header_container {
-    text-align: center;
-    height: 100%;
-    position: relative;
+  text-align: center;
+  height: 100%;
+  position: relative;
 }
 
 /* ======================== CTA ======================= */
 
 .cta {
-    margin-top: 2.5rem;
-    display: flex;
-    gap: 1.3rem;
-    justify-content: center;
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.3rem;
+  justify-content: center;
 }
-
 
 /* ======================== Header Socials ======================= */
 
 .header_socials {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.8rem;
-    position: absolute;
-    left: 0;
-    bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  position: absolute;
+  left: 0;
+  bottom: 3rem;
 }
 
 .header_socials::after {
-    content: "";
-    width: 1px;
-    height: 2rem;
-    background: var(--color-primary);
+  content: "";
+  width: 1px;
+  height: 2rem;
+  background: var(--color-primary);
 }
-
 
 /* ======================== Me ======================= */
 
 .me {
-    /* background: var(--color-primary); */
-    background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 30rem;
-    position: absolute;
+  /* background: var(--color-primary); */
+  background: linear-gradient(var(--color-primary), transparent);
+  width: 22rem;
+  height: 30rem;
+  position: absolute;
 
-    /* =================================== */
-    /* CENTER A DIV */
-    /* left: calc(50% - 11rem); */
-    left: 50%;
-    transform: translateX(-50%);
-    /* =================================== */
+  /* =================================== */
+  /* CENTER A DIV */
+  /* left: calc(50% - 11rem); */
+  left: 50%;
+  transform: translateX(-50%);
+  /* =================================== */
 
-    margin-top: 4rem;
-    border-radius: 12rem 12rem 0 0;
-    overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
-
+  margin-top: 4rem;
+  border-radius: 12rem 12rem 0 0;
+  overflow: hidden;
+  padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
-
 
 /* ======================== Scroll Down ======================= */
 
 .scroll__down {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: center; */
-    position: absolute;
-    right: -2.3rem;
-    bottom: 5rem;
-    transform: rotate(90deg);
-    font-weight: 300;
-    font-size: 0.9rem;
-
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  position: absolute;
+  right: -2.3rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
 }
 
 /* .scroll__down::after {
@@ -87,22 +82,91 @@ header {
 } */
 
 
+
+/* ============ MEDIA QUERIES (SMALL MOBILE) =============== */
+
+/* @media screen and (max-width: 320px) {
+  header {
+    height: 100vh;
+  }
+
+  .header_socials,
+  .scroll__down {
+    display: none;
+  }
+} */
+
+/* ============ MEDIA QUERIES (MEDIUM MOBILE) =============== */
+
+/* @media screen and (max-width: 375px) {
+  header {
+    height: 100vh;
+  }
+
+  .header_socials,
+  .scroll__down {
+    display: none;
+  }
+} */
+
+/* ============ MEDIA QUERIES (LARGE MOBILE) =============== */
+
+/* @media screen and (max-width: 425px) {
+  header {
+    height: 100vh;
+  }
+
+  .header_socials,
+  .scroll__down {
+    display: none;
+  }
+} */
+
+/* ============ MEDIA QUERIES (TABLET DEVICES) =============== */
+
+/* @media screen and (max-width: 768px) {
+  header {
+    height: 100vh;
+  }
+
+} */
+
+/* ============ MEDIA QUERIES (LAPTOP DEVICES) =============== */
+
+/* @media screen and (max-width: 1024px) {
+  header {
+    height: 100vh;
+  }
+} */
+
+
+/* ============ MEDIA QUERIES (LARGE LAPTOP DEVICES) =============== */
+
+/* @media screen and (max-width: 1440px) {
+  header {
+    height: 100vh;
+  }
+} */
+
+
+
 /* ============ MEDIA QUERIES (MEDIUM DEVICES) =============== */
 
-@media screen and (max-width: 600px) {
-    header {
-        height: 68vh;
-    }
+@media screen and (max-width: 1024px) {
+  header {
+    height: 100vh;
+  }
 }
 
+
 /* ============ MEDIA QUERIES (SMALL DEVICES) =============== */
-
 @media screen and (max-width: 600px) {
-    header {
-        height: 100vh;
-    }
+  header {
+    height: 100vh;
+  }
 
-    .header_socials, .scroll__down {
-        display: none;
-    }
+  .header_socials,
+  .scroll__down {
+    display: none;
+  }
 }
