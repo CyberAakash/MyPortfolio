@@ -69,8 +69,7 @@ h1 {
 }
 
 section {
-    margin-top: 8rem;
-    height: 100vh;
+    margin-top: 10rem;
 }
 
 section > h2, section > h5 {
@@ -133,7 +132,7 @@ img {
 
     section {
         margin-top: 6rem;
-        height: 100vh;
+        /* height: 100vh; */
     }
 }
 

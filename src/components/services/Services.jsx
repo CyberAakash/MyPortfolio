@@ -1,13 +1,206 @@
-import React from 'react';
+import React from "react";
 
 import "./Services.css";
+
+// ICONS
+import { BiCheck } from "react-icons/bi";
 
 const Services = () => {
   return (
     <section id="services">
-      Services
-    </section>
-  )
-}
+      <h5>What I Offer</h5>
+      <h2>Services</h2>
 
-export default Services
+      <div className="container service__container">
+        {/* START OF UI/UX */}
+        <article className="service">
+          <div className="service__head">
+            <h3>UI/UX Design</h3>
+          </div>
+
+          <ul className="service__list">
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Labore ipsum reprehenderit ut incididunt culpa sit tempor
+                reprehenderit.
+              </p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Labore ipsum reprehenderit ut incididunt culpa sit tempor
+                reprehenderit.
+              </p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Labore ipsum reprehenderit ut incididunt culpa sit tempor
+                reprehenderit.
+              </p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Labore ipsum reprehenderit ut incididunt culpa sit tempor
+                reprehenderit.
+              </p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Labore ipsum reprehenderit ut incididunt culpa sit tempor
+                reprehenderit.
+              </p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Labore ipsum reprehenderit ut incididunt culpa sit tempor
+                reprehenderit.
+              </p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Labore ipsum reprehenderit ut incididunt culpa sit tempor
+                reprehenderit.
+              </p>
+            </li>
+          </ul>
+        </article>
+        {/* END OF UI/UX */}
+
+        {/* START OF WEB DEVELOPMENT */}
+        <article className="service">
+          <div className="service__head">
+            <h3>Web Development</h3>
+          </div>
+
+          <ul className="service__list">
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Labore ipsum reprehenderit ut incididunt culpa sit tempor
+                reprehenderit.
+              </p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Labore ipsum reprehenderit ut incididunt culpa sit tempor
+                reprehenderit.
+              </p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Labore ipsum reprehenderit ut incididunt culpa sit tempor
+                reprehenderit.
+              </p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Labore ipsum reprehenderit ut incididunt culpa sit tempor
+                reprehenderit.
+              </p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Labore ipsum reprehenderit ut incididunt culpa sit tempor
+                reprehenderit.
+              </p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Labore ipsum reprehenderit ut incididunt culpa sit tempor
+                reprehenderit.
+              </p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Labore ipsum reprehenderit ut incididunt culpa sit tempor
+                reprehenderit.
+              </p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Labore ipsum reprehenderit ut incididunt culpa sit tempor
+                reprehenderit.
+              </p>
+            </li>
+          </ul>
+        </article>
+        {/* END OF WEB DEVELOPMENT */}
+
+        {/* START OF CONTENT CREATION */}
+        <article className="service">
+          <div className="service__head">
+            <h3>Content Creation</h3>
+          </div>
+
+          <ul className="service__list">
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Labore ipsum reprehenderit ut incididunt culpa sit tempor
+                reprehenderit.
+              </p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Labore ipsum reprehenderit ut incididunt culpa sit tempor
+                reprehenderit.
+              </p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Labore ipsum reprehenderit ut incididunt culpa sit tempor
+                reprehenderit.
+              </p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Labore ipsum reprehenderit ut incididunt culpa sit tempor
+                reprehenderit.
+              </p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Labore ipsum reprehenderit ut incididunt culpa sit tempor
+                reprehenderit.
+              </p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Labore ipsum reprehenderit ut incididunt culpa sit tempor
+                reprehenderit.
+              </p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>
+                Labore ipsum reprehenderit ut incididunt culpa sit tempor
+                reprehenderit.
+              </p>
+            </li>
+          </ul>
+        </article>
+        {/* END OF CONTENT CREATION */}
+      </div>
+    </section>
+  );
+};
+
+export default Services;

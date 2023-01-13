@@ -1,13 +1,60 @@
-import React from 'react';
+import React from "react";
 
 import "./Testimonials.css";
+
+// IMPORTING AVATARS FROM LINKS
+import { testimonialsAvatars } from "../../contansts/link";
+
+// SWIPERJS
+// import Swiper core and required modules
+import { Keyboard, Mousewheel, Autoplay, Pagination } from "swiper";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      Testimonials
-    </section>
-  )
-}
+      <h5>Review from Client</h5>
+      <h2>Testimonials</h2>
 
-export default Testimonials
+      <Swiper
+        className="container testimonials__container"
+        // install Swiper modules
+        modules={[Keyboard, Mousewheel, Autoplay, Pagination]}
+        spaceBetween={40}
+        slidesPerView={1}
+        grabCursor={true}
+        mousewheel={true}
+        keyboard={{
+          enabled: true,
+        }}
+        // loop={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{ clickable: true }}
+      >
+        {testimonialsAvatars.map(({ image, name, review }, index) => {
+          return (
+            <SwiperSlide key={index} className="testimonial">
+              <div className="client__avatar">
+                <img src={image} alt="AVATAR" />
+              </div>
+              <h5 className="client__name">{name}</h5>
+              <small className="client__review">{review}</small>
+            </SwiperSlide>
+          );
+        })}
+      </Swiper>
+    </section>
+  );
+};
+
+export default Testimonials;
