@@ -1,3 +1,8 @@
+#contact {
+    padding-top: 5rem;
+}
+
+
 .container.contact__container {
   width: 58%;
   display: grid;
@@ -34,6 +39,11 @@
   margin-top: 0.7rem;
   display: inline-block;
   font-size: 0.8rem;
+  cursor: inherit;
+}
+
+.contact__option a:hover {
+  color: var(--color-bg-variant);
 }
 
 /* ======================================== F O R M ========================================== */

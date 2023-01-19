@@ -1,3 +1,8 @@
+#portfolio {
+    padding-top: 5rem;
+}
+
+
 .portfolio__container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -15,6 +20,7 @@
 .portfolio__item:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
+  transform: scale(1.1);
 }
 
 .portfolio__item-image {

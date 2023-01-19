@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap');
+
 header {
   height: 100vh;
   padding-top: 7rem;
   overflow: hidden;
+}
+
+h1.my__name {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
 }
 
 .header_container {
@@ -9,6 +16,28 @@ header {
   height: 100%;
   position: relative;
 }
+
+.flicker {
+  margin: 1rem auto;
+  color: #fffefe61;
+  background: -webkit-gradient(linear, left top, right top, from(#e6e6e6), to(#1d1c1c), color-stop(0.8, #ffffff)) no-repeat;
+  background: gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.8, #fff)) no-repeat;
+  background-size: 110px 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: flick 1.5s infinite;
+}
+
+@keyframes flick {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+
+
 
 /* ======================== CTA ======================= */
 
@@ -41,8 +70,8 @@ header {
 /* ======================== Me ======================= */
 
 .me {
-  /* background: var(--color-primary); */
-  background: linear-gradient(var(--color-primary), transparent);
+  /* background: var(--color-bg-variant); */
+  background: linear-gradient(var(--color-light), transparent);
   width: 22rem;
   height: 30rem;
   position: absolute;

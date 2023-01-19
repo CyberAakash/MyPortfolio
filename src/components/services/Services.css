@@ -1,3 +1,8 @@
+#services {
+    padding-top: 5rem;
+}
+
+
 .service__container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -16,7 +21,7 @@
 .service:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
-  cursor: default;
+  cursor: inherit;
 }
 
 .service__head {

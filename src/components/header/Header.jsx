@@ -12,9 +12,12 @@ const Header = () => {
   return (
     <header>
       <div className="container header_container">
-        <h5>Hello I'm</h5>
-        <h1>Cyber Aakash</h1>
-        <h5 className='text-light'>FullStack dev.</h5>
+        <h5 className='text-[var(--color-bg-variant)]'>Hello I'm</h5>
+        <h1 className='my__name'>Cyber Aakash</h1>
+        <div className="">
+          <h5 className="text-light flicker">FullStack Dev.</h5>
+        </div>
+
         {/* BUTTONS */}
         <CTA />
 
@@ -22,15 +25,16 @@ const Header = () => {
         <HeaderSocials />
 
         {/* MY-PIC */}
-        <div className='me'>
-          <img src={ME} alt="me" className='scale-[1.6]' />
+        <div className="me">
+          <img src={ME} alt="me" className="scale-[1.8]" />
         </div>
 
-        <a href="#contact" className='scroll__down'>Scroll Down</a>
-
+        <a href="#contact" className="scroll__down">
+          Scroll Down
+        </a>
       </div>
     </header>
-  )
+  );
 }
 
 export default Header

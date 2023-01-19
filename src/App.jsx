@@ -16,6 +16,14 @@ import Testimonials from "./components/testimonials/Testimonials";
 
 function App() {
 
+  window.addEventListener(
+    "contextmenu",
+    (e) => {
+      e.preventDefault();
+    },
+    false
+  );
+
   return (
     <>
       <Header />

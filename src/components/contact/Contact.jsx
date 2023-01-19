@@ -45,33 +45,52 @@ const Contact = () => {
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
-            <MdOutlineEmail className='contact__option-icon'/>
+            <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>aakashvnth@gmail.com</h5>
-            <a href="mailto:aakashvnth@gmail.com">Send a message</a>
+            <a href="mailto:aakashvnth@gmail.com" target="_blank">
+              -{'>'} Send a message
+            </a>
           </article>
           <article className="contact__option">
-            <SiInstagram className='contact__option-icon'/>
+            <SiInstagram className="contact__option-icon" />
             <h4>Instagram</h4>
             <h5>@cyberaakash</h5>
-            <a href="https://www.instagram.com/cyberaakash/">Send a message</a>
+            <a href="https://www.instagram.com/cyberaakash/" target="_blank">
+              -{'>'} Send a message
+            </a>
           </article>
           <article className="contact__option">
-            <SiLinkedin className='contact__option-icon'/>
+            <SiLinkedin className="contact__option-icon" />
             <h4>Linked-in</h4>
             <h5>aakash-t-3a482620b</h5>
-            <a href="https://www.linkedin.com/in/aakash-t-3a482620b/">
-              Send a message
+            <a
+              href="https://www.linkedin.com/in/aakash-t-3a482620b/"
+              target="_blank"
+            >
+              -{'>'} Send a message
             </a>
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}
-        
-        <form id='myForm' ref={form} onSubmit={sendEmail}>
-          <input type="text" name="name" placeholder="Your Cute Name" required />
+
+        <form id="myForm" ref={form} onSubmit={sendEmail}>
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Cute Name"
+            required
+          />
           <input type="email" name="email" placeholder="Your Mail" required />
-          <textarea name="message" rows="7" placeholder='Your Message' required ></textarea>
-          <button type="submit" value="submit" className="btn btn-primary">Send Message</button>
+          <textarea
+            name="message"
+            rows="7"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <button type="submit" value="submit" className="btn btn-primary">
+            Send Message
+          </button>
         </form>
       </div>
     </section>
