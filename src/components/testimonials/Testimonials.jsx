@@ -41,14 +41,15 @@ const Testimonials = () => {
         }}
         pagination={{ clickable: true }}
       >
-        {testimonialsAvatars.map(({ image, name, review }, index) => {
+        {testimonialsAvatars.map(({ image, name, review, cmnt }, index) => {
           return (
-            <SwiperSlide key={index} className="testimonial">
-              <div className="client__avatar">
+            <SwiperSlide key={index} className="testimonial min-h-[200px]">
+              {/* <div className="client__avatar">
                 <img src={image} alt="AVATAR" />
               </div>
               <h5 className="client__name">{name}</h5>
-              <small className="client__review">{review}</small>
+              <small className="client__review">{review}</small> */}
+              <h5 className="text-[var(--color-light)]">{cmnt}</h5>
             </SwiperSlide>
           );
         })}

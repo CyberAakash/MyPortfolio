@@ -69,8 +69,12 @@
 }
 
 .about__content p a{
+    color: grey;
+    cursor: inherit;
+}
+
+.about__content p a:hover{
     text-decoration: underline;
-    color: #fff;
 }
 
 .about__content p {

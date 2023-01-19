@@ -51,8 +51,8 @@ const About = () => {
             I self trained myself for about 4 years in developing my Web/App
             developing skills and new technological knowledge. I also
             participated in various Hackathons and events across India. One of
-            my favourite is working with <span>blockchain</span>. Apart from
-            coding, I am a certified Redhat Administrator. From my childhood i
+            my favourite is working with <a href=''>blockchain</a>. Apart from
+            coding, I am a certified <a href=''>Redhat administrator</a>. From my childhood i
             very much interested in hacking stuffs. And also trained myself in
             various editing tools such as <a href="">Figma</a>, <a href="">Blender</a>
           </p>

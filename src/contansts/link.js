@@ -68,6 +68,7 @@ export const testimonialsAvatars = [
     id: 1,
     image: AVTR1,
     name: "Avatar One",
+    cmnt: "Y O U",
     review:
       "Sunt labore duis qui ullamco deserunt consectetur ea quis. Nisi ad elit dolore aute consequat. Laborum quis incididunt anim id labore et elit. Occaecat consectetur quis non duis est voluptate.",
   },
@@ -75,6 +76,7 @@ export const testimonialsAvatars = [
     id: 2,
     image: AVTR2,
     name: "Avatar Two",
+    cmnt: "C A M E",
     review:
       "Sunt labore duis qui ullamco deserunt consectetur ea quis. Nisi ad elit dolore aute consequat. Laborum quis incididunt anim id labore et elit. Occaecat consectetur quis non duis est voluptate.",
   },
@@ -82,6 +84,7 @@ export const testimonialsAvatars = [
     id: 3,
     image: AVTR3,
     name: "Avatar Three",
+    cmnt: "L O N G",
     review:
       "Sunt labore duis qui ullamco deserunt consectetur ea quis. Nisi ad elit dolore aute consequat. Laborum quis incididunt anim id labore et elit. Occaecat consectetur quis non duis est voluptate.",
   },
@@ -89,6 +92,7 @@ export const testimonialsAvatars = [
     id: 4,
     image: AVTR4,
     name: "Avatar Four",
+    cmnt: "W A Y",
     review:
       "Sunt labore duis qui ullamco deserunt consectetur ea quis. Nisi ad elit dolore aute consequat. Laborum quis incididunt anim id labore et elit. Occaecat consectetur quis non duis est voluptate.",
   },

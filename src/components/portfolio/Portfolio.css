@@ -1,5 +1,5 @@
 #portfolio {
-    padding-top: 5rem;
+    padding-top: 3rem;
 }
 
 
@@ -20,7 +20,7 @@
 .portfolio__item:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .portfolio__item-image {

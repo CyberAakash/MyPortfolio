@@ -1,5 +1,5 @@
 #services {
-    padding-top: 5rem;
+    padding-top: 3.5rem;
 }
 
 
@@ -16,12 +16,19 @@
   /* border-top: var(--color-primary); */
   height: fit-content;
   transition: var(--transition);
+  cursor: inherit;
 }
 
 .service:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
-  cursor: inherit;
+  scale: 106%;
+}
+
+.service.cen:hover {
+  background: transparent;
+  border-color: var(--color-primary-variant);
+  scale: 95%;
 }
 
 .service__head {
@@ -45,6 +52,11 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 0.8rem;
+    color: var(--color-light);
+}
+
+.service__list li span{
+  color: var(--color-white);
 }
 
 .service__list-icon {

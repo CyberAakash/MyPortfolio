@@ -29,10 +29,10 @@ const Nav = () => {
     if (window.scrollY >= 2230) {
       setActiveNav("#services");
     }
-    if (window.scrollY >= 3570) {
+    if (window.scrollY >= 3350) {
       setActiveNav("#portfolio");
     }
-    if (window.scrollY >= 5180) {
+    if (window.scrollY >= 5100) {
       setActiveNav("#contact");
     }
     if (window.scrollY == 0) {
