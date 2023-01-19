@@ -25,30 +25,42 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>Duis mollit enim nisi nostrud.</small>
+              <h5>WEB DEVELOPER</h5>
+              <small>
+                know latest trends and designs/rules.
+              </small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
-              <h5>Experience</h5>
-              <small>Duis mollit enim nisi nostrud.</small>
+              <h5>ETHICAL HACKER</h5>
+              <small>
+                certified redhat administrator.
+              </small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
-              <h5>Experience</h5>
-              <small>Duis mollit enim nisi nostrud.</small>
+              <h5>BLOCKCHAIN DEVELOPER</h5>
+              <small>
+                xdc, plugin, ethereum, and bigchainDB
+              </small>
             </article>
           </div>
 
           {/* PARAGRAPH */}
-          <p>Mollit cillum quis esse minim et. Sint ex officia officia fugiat. 
-             Dolor aliqua dolor duis nulla. Est eu quis magna aliqua eiusmod elit aliqua consectetur ex consequat id officia minim incididunt.
-             Non tempor minim ipsum velit cillum id qui in do deserunt qui ea laboris.
+          <p>
+            I self trained myself for about 4 years in developing my Web/App
+            developing skills and new technological knowledge. I also
+            participated in various Hackathons and events across India. One of
+            my favourite is working with <span>blockchain</span>. Apart from
+            coding, I am a certified Redhat Administrator. From my childhood i
+            very much interested in hacking stuffs. And also trained myself in
+            various editing tools such as <a href="">Figma</a>, <a href="">Blender</a>
           </p>
 
           {/* CALL BUTTON */}
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
-
+          <a href="#contact" className="btn btn-primary">
+            Let's Talk
+          </a>
         </div>
       </div>
     </section>
